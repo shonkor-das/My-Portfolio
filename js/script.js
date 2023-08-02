@@ -59,3 +59,16 @@ const typed = new Typed('.multiple-text', {
     backDelay: 1000,
     loop: true
 });
+
+
+
+/*===== CV Download =====*/
+let button = document.querySelector('home-content a');
+button.addEventListener("click", () => {
+    // alert("success");
+    button.style.paddingRight = "10px";
+    setTimeout(() =>{
+        button.style.transition = ".3s ease-in-out";
+        button.style.paddingRight = "0px";
+    },3000);
+})
