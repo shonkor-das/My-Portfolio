@@ -46,10 +46,11 @@ section {
 }
 
 .logo{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: var(--text-color);
     font-weight: 600;
     cursor: default;
+    color: #fa9b79;
 }
 
 .navbar a{
@@ -74,6 +75,10 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.name {
+    color: chocolate;
 }
 
 .home-img img{
@@ -152,6 +157,9 @@ span{
     background: var(--second-bg-color);
 }
 
+.about-name{
+    color: lightsalmon;
+}
 .about-img img{
     width: 35vw;
     height: 35vw;
@@ -211,6 +219,7 @@ span{
 
 .services-box h3 {
     font-size: 2.6rem;
+    color: #e91fac;
 }
 
 .services-box p {
